@@ -4,12 +4,13 @@ File.open('forRead.txt' , 'r') do |file|
    puts fileRead.include? 'ruby'
 
    # for read line #
-   #  fileRead.readline
+   # fileRead.readline
 
    # for read lines #
-   #  fileRead.readlines
+   # fileRead.readlines
 
    # for read char #
-   #  fileRead.readchar
+   # fileRead.readchar
+
    file.close
 end
