@@ -22,6 +22,14 @@ puts "#" * 50
 h[:bat] = 3 # => 3
 puts h ; puts "#" * 50
 
+# Get All keys in Hash #
+puts h.keys
+puts h ; puts "#" * 50
+
+# Get All Values in Hash #
+puts h.values
+puts h ; puts "#" * 50
+
 # Update Value in Hash #
 h[:foo] = 4 # => 4
 puts h ; puts "#" * 50
@@ -30,10 +38,3 @@ puts h ; puts "#" * 50
 h.delete(:bar) # => 1
 puts h ; puts "#" * 50
 
-# Get All keys in Hash #
-puts h.keys
-puts h ; puts "#" * 50
-
-# Get All Values in Hash #
-puts h.values
-puts h ; puts "#" * 50
