@@ -9,3 +9,4 @@ end
 
 include Tools
 Tools.sayHello "kira"
+
