@@ -1,5 +1,5 @@
 require 'mongo'
-require_relative 'connect'
+require_relative 'rubyWithMongoDB/connect'
 include Connect
 db = connect
 collection = db[:users, capped: true, size: 10000]
