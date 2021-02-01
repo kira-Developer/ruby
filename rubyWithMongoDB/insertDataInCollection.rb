@@ -19,5 +19,4 @@ data = {
   password:password
 }
 
-result = collection.insert_one data
-result.n
+result = collection.insert_one(data).n
